@@ -1,10 +1,23 @@
 package com.anlb.shoesstore.domain;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
+/**
+ * @Entity: create table in db
+ * @Table(name = ""): the name will show in db
+ */
+
+@Entity
 public class User {
+    @Id
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     private long id;
     private String email;
     private String password;
-    private String fullName;
+    private String fullname;
     private String address;
     private String phone;
     
@@ -27,10 +40,10 @@ public class User {
         this.password = password;
     }
     public String getFullName() {
-        return fullName;
+        return fullname;
     }
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
+    public void setFullName(String fullname) {
+        this.fullname = fullname;
     }
     public String getAddress() {
         return address;
@@ -46,7 +59,7 @@ public class User {
     }
     @Override
     public String toString() {
-        return "User [id=" + id + ", email=" + email + ", password=" + password + ", fullName=" + fullName
+        return "User [id=" + id + ", email=" + email + ", password=" + password + ", fullname=" + fullname
                 + ", address=" + address + ", phone=" + phone + "]";
     }
 
