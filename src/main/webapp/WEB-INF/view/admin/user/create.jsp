@@ -8,10 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create User</title>
     <!-- Reset css -->
-    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../../css/reset.css">
     <!-- Create-user css form -->
-    <link rel="stylesheet" href="../css/create-user.css">
-    <link rel="stylesheet" href="../css/reponsive-create-user.css">
+    <link rel="stylesheet" href="../../css/create-user.css">
+    <link rel="stylesheet" href="../../css/reponsive-create-user.css">
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -67,13 +67,13 @@
                         <!-- Fullname -->
                         <div class="form-group">
                             <label for="fullname" class="form-label">Fullname</label>
-                            <form:input class="form-input" type="text" path="fullname" placeholder="Enter your fullname">
+                            <form:input class="form-input" type="text" path="fullname" placeholder="Enter your fullname" />
                         </div>
                         
                         <!-- Address -->
                         <div class="form-group">
                             <label for="address" class="form-label">Address</label>
-                            <form:input class="form-input" type="address" path="address" placeholder="Enter your address">
+                            <form:input class="form-input" type="text" path="address" placeholder="Enter your address" />
                         </div>
                     </div>
 
@@ -81,13 +81,13 @@
                         <!-- Email -->
                         <div class="form-group">
                             <label for="email" class="form-label">Email</label>
-                            <form:input class="form-input" type="email" path="email" placeholder="Enter your email">
+                            <form:input class="form-input" type="email" path="email" placeholder="Enter your email" />
                         </div>
 
                         <!-- Phone number -->
                         <div class="form-group">
                             <label for="phone" class="form-label">Phone number</label>
-                            <form:input class="form-input" type="tel" path="phone" placeholder="Enter your phone">
+                            <form:input class="form-input" type="tel" path="phone" placeholder="Enter your phone" />
                         </div>
                     </div>
 
@@ -95,7 +95,7 @@
                         <!-- Password -->
                         <div class="form-group">
                             <label for="password" class="form-label">Password</label>
-                            <form:input class="form-input" type="password" path="password" placeholder="Enter your password">
+                            <form:input class="form-input" type="password" path="password" placeholder="Enter your password" />
                         </div>
                     </div>
 

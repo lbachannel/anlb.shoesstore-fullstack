@@ -39,10 +39,10 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
-    public String getFullName() {
+    public String getFullname() {
         return fullname;
     }
-    public void setFullName(String fullname) {
+    public void setFullname(String fullname) {
         this.fullname = fullname;
     }
     public String getAddress() {
